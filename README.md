@@ -1,5 +1,6 @@
-This project implements the Markowitz Mean-Variance Model to optimize a portfolio of assets. 
-The model uses historical returns data to calculate expected returns, risk (covariance and correlation), and the optimal allocation weights that minimize risk while maximizing returns.
+This project focuses on the implementation of the Markowitz Mean-Variance Model to optimize a portfolio comprising multiple assets. By using historical returns data, the model enables the accurate calculation of key metrics, such as expected returns and risk, represented by covariance and correlation. 
+These metrics form the foundation for informed investment decisions and are essential in determining the optimal allocation weights that minimize the overall portfolio risk, while maximizing expected returns.
+
 
 
 -Applied advanced statistical techniques, including covariance and correlation matrices, to assess the co-movements and relationships between two assets' returns
