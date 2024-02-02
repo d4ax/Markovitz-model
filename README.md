@@ -1,12 +1,19 @@
-This project focuses on the implementation of the Markowitz Mean-Variance Model to optimize a portfolio comprising multiple assets. By using historical returns data, the model enables the accurate calculation of key metrics, such as expected returns and risk, represented by covariance and correlation. 
-These metrics form the foundation for informed investment decisions and are essential in determining the optimal allocation weights that minimize the overall portfolio risk, while maximizing expected returns.
+# Markowitz Mean-Variance Portfolio Optimization
 
+## Project Overview
+This project is dedicated to the implementation of the Markowitz Mean-Variance Model, a cornerstone of Modern Portfolio Theory. It focuses on optimizing a portfolio of multiple assets by utilizing historical returns data to accurately calculate key metrics such as expected returns, risk (via covariance and correlation), and the optimal allocation weights. These calculations are fundamental for making informed investment decisions, aiming to minimize overall portfolio risk while maximizing expected returns.
 
+### Features
+- **Advanced Statistical Analysis:** Application of covariance and correlation matrices to assess the co-movements and relationships between the returns of different assets.
+- **Risk-Adjusted Returns:** Computation of portfolio variance and Sharpe ratio for two-asset combinations, evaluating the performance relative to the risk-free rate.
+- **Mean-Variance Optimization:** Utilization of Markowitz's Modern Portfolio Theory principles to optimize the Sharpe ratio, seeking the highest return-to-risk ratio in two-asset portfolio scenarios.
+- **Efficient Frontier Exploration:** Examination of the efficient frontier concept to identify optimal portfolios, informing asset allocation strategies for enhanced risk management and return maximization.
 
--Applied advanced statistical techniques, including covariance and correlation matrices, to assess the co-movements and relationships between two assets' returns
+## Installation
 
--Computed portfolio variance and Sharpe ratio for two-asset combinations, evaluating risk-adjusted returns and performance relative to the risk-free rate
+To get involved with this project, follow these steps to set it up locally.
 
--Utilized Markowitz's Modern Portfolio Theory to optimize the Sharpe ratio, seeking the highest return-to-risk ratio in two-asset portfolio scenarios through mean-variance optimization
+```bash
+git clone https://github.com/d4ax/Markovitz-model
+cd Markovitz-model
 
--Delved into the efficient frontier concept, examining its role in identifying optimal portfolios and shaping asset allocation strategies for improved risk management and return maximization
